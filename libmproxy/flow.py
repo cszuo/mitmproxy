@@ -809,7 +809,7 @@ class FlowMaster(controller.Master):
 
     def duplicate_flow(self, f):
         return self.load_flow(f.copy())
-
+    #cszuo
     def create_request(self, method, scheme, host, port, path):
         """
             this method creates a new artificial and minimalist request also adds it to flowlist
